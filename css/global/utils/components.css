@@ -1,0 +1,25 @@
+.container{
+  max-width: 1440px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.default__button{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 0px 15px 0;
+  border-radius: 50px;
+  border: none;
+  background-color: var(--color_orange-primary);
+  color: var(--color_white);
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.default__button:hover{
+  background-color: var(--color_white);
+  color: var(--color_orange-primary);
+  transition: 0.5s;
+}
