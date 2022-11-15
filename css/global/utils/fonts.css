@@ -34,3 +34,9 @@
 .font_1_xxxl{
   font: 400 4.5rem/1.3 "Overpass", arial, sans-serif;
 }
+
+@media (max-width: 400px) {
+  .font_1_sm{
+    font: 400 0.8rem/1.3 "Overpass", arial, sans-serif;
+  }
+}

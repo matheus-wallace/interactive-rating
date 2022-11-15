@@ -3,6 +3,7 @@
   --color_white: hsl(0, 0%, 100%);
   --color_grey-light: hsl(217, 12%, 63%);
   --color_grey-medium: hsl(216, 12%, 54%);
+  --color_grey_medium-transpatent: hsla(216, 12%, 54%, 0.116);
   --color_blue-dark: hsl(213, 19%, 18%);
   --color_blue-veryDark: hsl(216, 12%, 8%);
 }
