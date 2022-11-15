@@ -1,0 +1,5 @@
+@import url(./global/reset.css);
+@import url(global/utils/fonts.css);
+@import url(global/utils/colors.css);
+@import url(global/utils/components.css);
+@import url(card.css);
