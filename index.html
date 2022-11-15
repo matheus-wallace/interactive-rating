@@ -16,20 +16,25 @@
 <body>
   <main class="main container">
     <article class="card__container">
-      <img src="images/icon-star.svg" alt="star icon">
-      <h1 class="card__title">How did we do?</h1>
-      <p class="card__description">Please let us know how we did with your support
-        request. All feedback is appreciated to help us improve our offering</p>
-      <ul class="card__rating">
-        <li><button>1</button></li>
-        <li><button>2</button></li>
-        <li><button>3</button></li>
-        <li><button>4</button></li>
-        <li><button>5</button></li>
-      </ul>
-      <button type="submit">submit</button>
+      <form action="./thanks.html" method="get">
+        <img src="images/icon-star.svg" alt="star icon" class="card__star">
+        <h1 class="card__title color_white">How did we do?</h1>
+        <p class="card__description font_1_sm color_grey-light">Please let us know how we did with your support
+          request. All feedback is appreciated to help us improve our offering!</p>
+        <ul class="card__rating">
+          <li><button class="rating__button">1</button></li>
+          <li><button class="rating__button">2</button></li>
+          <li><button class="rating__button">3</button></li>
+          <li><button class="rating__button">4</button></li>
+          <li><button class="rating__button">5</button></li>
+        </ul>
+
+        <button type="submit" class="default__button">submit</button>
+      </form>
     </article>
   </main>
+
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
