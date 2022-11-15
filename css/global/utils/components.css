@@ -18,8 +18,16 @@
   cursor: pointer;
 }
 
+.defualt__card{
+  max-width: 420px;
+  padding: 30px;
+  border-radius: 30px;
+  background: radial-gradient(at top, var(--color_blue-dark)50%, var(--color_blue-veryDark) 100%);
+}
+
 .default__button:hover{
   background-color: var(--color_white);
   color: var(--color_orange-primary);
   transition: 0.5s;
+
 }
