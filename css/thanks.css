@@ -1,0 +1,21 @@
+.thanks__container{
+  text-align: center;
+}
+
+.thanks__img{
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.thanks__choice{
+  display: inline-block;
+  margin-bottom: 25px;
+  background-color: var(--color_grey_medium-transpatent);
+  border-radius: 30px;
+  padding: 10px 15px;
+  color: var(--color_orange-primary);
+}
+
+.thanks__title{
+  margin-bottom: 10px;
+}
